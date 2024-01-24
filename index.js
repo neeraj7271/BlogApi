@@ -5,7 +5,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 // Define a sample endpoint
-app.get('/api/hello', (req, res) => {
+app.get('/', (req, res) => {
   res.json({ message: 'Hello, this is your API!' });
 });
 
