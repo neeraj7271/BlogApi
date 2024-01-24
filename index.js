@@ -7,6 +7,11 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 // Define a sample endpoint
+
+app.get("/", (req, res) => {
+  res.json({data: data});
+})
+
 app.get("/page=:page", (req, res) => {
   let index = req.params.page;
 
