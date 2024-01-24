@@ -9,6 +9,10 @@ const port = process.env.PORT || 3000;
 // Define a sample endpoint
 app.get("/page=:page", (req, res) => {
   let index = req.params.page;
+
+  if(index > data.length) {
+    res.json({data: "data not found"});
+  }
   
   res.json({ data: data[index]});
 });
