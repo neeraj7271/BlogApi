@@ -1,12 +1,16 @@
 import express from "express";
+import data from "./data.js";
+
 
 const app = express();
 
 const port = process.env.PORT || 3000;
 
 // Define a sample endpoint
-app.get('/page=1', (req, res) => {
-  res.json({ message: 'Hello, this is your API!' });
+app.get("/page=:page", (req, res) => {
+  let index = req.params.page;
+  
+  res.json({ data: data[index]});
 });
 
 // Start the server
