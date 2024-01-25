@@ -1,6 +1,7 @@
-let data = {
+let data = 
 
-   "page1": {
+  {
+    "page1": {
       "page": 1,
       "pageSize": 5,
       "totalPosts": 30,
@@ -174,7 +175,7 @@ let data = {
         }
       ]
     },
-    "page4":{
+    "page4": {
       "page": 4,
       "pageSize": 5,
       "totalPosts": 30,
@@ -232,122 +233,122 @@ let data = {
         }
       ]
     },
-    "page5":{
-  "page": 5,
-  "pageSize": 5,
-  "totalPosts": 30,
-  "totalPages": 6,
-  "posts": [
-    {
-      "title": "Future Trends in Aerospace Engineering",
-      "author": "Jackie Bennett",
-      "date": "2024-01-04",
-      "category": "Aerospace Engineering",
-      "tags": ["aerospace", "future trends", "technology"],
-      "content": "Explore cutting-edge urban mobility solutions designed for smart cities. From intelligent transportation systems to sustainable commuting options, this post dives into how urban planning is evolving to meet the mobility needs of modern city dwellers.",
-      "id": 21,
-      "img": "aerospace_engineering_img3.jpg"
+    "page5": {
+      "page": 5,
+      "pageSize": 5,
+      "totalPosts": 30,
+      "totalPages": 6,
+      "posts": [
+        {
+          "title": "Advances in Aerospace Propulsion Systems",
+          "author": "Jackie Bennett",
+          "date": "2024-01-14",
+          "category": "Aerospace Engineering",
+          "tags": ["aerospace", "propulsion", "technology"],
+          "content": "Explore the cutting-edge advances in aerospace propulsion systems. This post delves into the latest technologies driving aircraft and spacecraft propulsion, from jet engines to innovative propulsion systems reshaping the aerospace industry.",
+          "id": 11,
+          "img": "aerospace_engineering_img2.jpg"
+        },
+        {
+          "title": "Innovative Materials in Electrical Engineering",
+          "author": "Mason Lee",
+          "date": "2024-01-13",
+          "category": "Electrical Engineering",
+          "tags": ["materials", "electronics", "innovation"],
+          "content": "Discover the role of innovative materials in electrical engineering. From advanced semiconductors to new insulation materials, this post explores how materials innovation is driving advancements in electrical engineering.",
+          "id": 12,
+          "img": "electrical_engineering_img2.jpg"
+        },
+        {
+          "title": "Sustainable Construction Practices in Civil Engineering",
+          "author": "Lily Martinez",
+          "date": "2024-01-12",
+          "category": "Civil Engineering",
+          "tags": ["construction", "sustainability", "building"],
+          "content": "Explore sustainable construction practices in civil engineering. This post highlights environmentally friendly construction techniques, materials, and designs that contribute to a more sustainable and eco-friendly built environment.",
+          "id": 13,
+          "img": "civil_engineering_img2.jpg"
+        },
+        {
+          "title": "Emerging Trends in Mechanical Engineering",
+          "author": "Nathan Cooper",
+          "date": "2024-01-11",
+          "category": "Mechanical Engineering",
+          "tags": ["trends", "mechanics", "innovation"],
+          "content": "Stay ahead of the curve with this exploration of emerging trends in mechanical engineering. From the rise of smart devices to new manufacturing techniques, discover the innovations shaping the future of mechanical engineering.",
+          "id": 14,
+          "img": "mechanical_engineering_img2.jpg"
+        },
+        {
+          "title": "Green Technologies for Environmental Sustainability",
+          "author": "Eva Rodriguez",
+          "date": "2024-01-10",
+          "category": "Environmental Engineering",
+          "tags": ["green technology", "sustainability", "environment"],
+          "content": "Delve into green technologies for environmental sustainability. This post explores eco-friendly innovations and technologies designed to address environmental challenges, from renewable energy to waste reduction solutions.",
+          "id": 15,
+          "img": "environmental_engineering_img2.jpg"
+        }
+      ]
     },
-    {
-      "title": "Innovations in Electrical Power Distribution",
-      "author": "Mason Lee",
-      "date": "2024-01-03",
-      "category": "Electrical Engineering",
-      "tags": ["innovation", "power distribution", "electrical systems"],
-      "content": "Explore cutting-edge urban mobility solutions designed for smart cities. From intelligent transportation systems to sustainable commuting options, this post dives into how urban planning is evolving to meet the mobility needs of modern city dwellers.",
-      "id": 22,
-      "img": "electrical_engineering_img3.jpg"
+    "page6": {
+      "page": 6,
+      "pageSize": 5,
+      "totalPosts": 30,
+      "totalPages": 6,
+      "posts": [
+        {
+          "title": "Innovations in Structural Design",
+          "author": "Sophia Taylor",
+          "date": "2024-01-09",
+          "category": "Structural Engineering",
+          "tags": ["innovation", "structures", "design"],
+          "content": "Explore the latest innovations in structural design. This post showcases advancements in architectural engineering, the use of cutting-edge materials, and the integration of technology to create structures that are both aesthetically pleasing and structurally sound.",
+          "id": 16,
+          "img": "structural_engineering_img2.jpg"
+        },
+        {
+          "title": "Smart Manufacturing and Industry 4.0",
+          "author": "Robert Turner",
+          "date": "2024-01-08",
+          "category": "Industrial Engineering",
+          "tags": ["smart manufacturing", "industry 4.0", "automation"],
+          "content": "Step into the era of smart manufacturing with Industry 4.0. This post explores how industrial engineering is embracing advanced technologies, automation, and data exchange to create more efficient and responsive manufacturing processes.",
+          "id": 17,
+          "img": "industrial_engineering_img2.jpg"
+        },
+        {
+          "title": "Renewable Energy Integration in Power Systems",
+          "author": "Emma Harris",
+          "date": "2024-01-07",
+          "category": "Energy Engineering",
+          "tags": ["renewable energy", "power systems", "sustainability"],
+          "content": "Dive into the intricate world of renewable energy integration in power systems. This post explores the challenges and solutions in incorporating renewable energy sources into power grids, contributing to a more sustainable and resilient energy infrastructure.",
+          "id": 18,
+          "img": "energy_engineering_img2.jpg"
+        },
+        {
+          "title": "Advancements in Chemical Process Engineering",
+          "author": "Ryan Miller",
+          "date": "2024-01-06",
+          "category": "Chemical Engineering",
+          "tags": ["advancements", "chemical processes", "engineering"],
+          "content": "Stay abreast of the latest advancements in chemical process engineering. From innovative reactor designs to breakthroughs in catalysis, this post explores how chemical engineers are pushing the boundaries of process optimization and efficiency.",
+          "id": 19,
+          "img": "chemical_engineering_img2.jpg"
+        },
+        {
+          "title": "Urban Mobility Solutions for Smart Cities",
+          "author": "Olivia Walker",
+          "date": "2024-01-05",
+          "category": "Urban Planning",
+          "tags": ["urban mobility", "smart cities", "transportation"],
+          "content": "Explore cutting-edge urban mobility solutions designed for smart cities. From intelligent transportation systems to sustainable commuting options, this post dives into how urban planning is evolving to meet the mobility needs of modern city dwellers.",
+          "id": 20,
+          "img": "urban_planning_img2.jpg"
+        }
+      ]
     },
-    {
-      "title": "Sustainable Materials in Civil Engineering",
-      "author": "Lily Martinez",
-      "date": "2024-01-02",
-      "category": "Civil Engineering",
-      "tags": ["sustainable materials", "construction", "building"],
-      "content": "Explore cutting-edge urban mobility solutions designed for smart cities. From intelligent transportation systems to sustainable commuting options, this post dives into how urban planning is evolving to meet the mobility needs of modern city dwellers.",
-      "id": 23,
-      "img": "civil_engineering_img3.jpg"
-    },
-    {
-      "title": "Emerging Technologies in Mechanical Engineering",
-      "author": "Nathan Cooper",
-      "date": "2024-01-01",
-      "category": "Mechanical Engineering",
-      "tags": ["emerging technologies", "mechanics", "innovation"],
-      "content": "Explore cutting-edge urban mobility solutions designed for smart cities. From intelligent transportation systems to sustainable commuting options, this post dives into how urban planning is evolving to meet the mobility needs of modern city dwellers.",
-      "id": 24,
-      "img": "mechanical_engineering_img3.jpg"
-    },
-    {
-      "title": "Green Infrastructure for Environmental Sustainability",
-      "author": "Eva Rodriguez",
-      "date": "2023-12-31",
-      "category": "Environmental Engineering",
-      "tags": ["green infrastructure", "sustainability", "environment"],
-      "content": "Explore cutting-edge urban mobility solutions designed for smart cities. From intelligent transportation systems to sustainable commuting options, this post dives into how urban planning is evolving to meet the mobility needs of modern city dwellers.",
-      "id": 25,
-      "img": "environmental_engineering_img3.jpg"
-    }
-  ]
-},
-"page6":{
-  "page": 6,
-  "pageSize": 5,
-  "totalPosts": 30,
-  "totalPages": 6,
-  "posts": [
-    {
-      "title": "Innovative Approaches to Structural Analysis",
-      "author": "Sophia Taylor",
-      "date": "2023-12-30",
-      "category": "Structural Engineering",
-      "tags": ["innovation", "structural analysis", "engineering"],
-      "content": "Explore cutting-edge urban mobility solutions designed for smart cities. From intelligent transportation systems to sustainable commuting options, this post dives into how urban planning is evolving to meet the mobility needs of modern city dwellers.",
-      "id": 26,
-      "img": "structural_engineering_img3.jpg"
-    },
-    {
-      "title": "Digital Twin Technology in Industrial Engineering",
-      "author": "Robert Turner",
-      "date": "2023-12-29",
-      "category": "Industrial Engineering",
-      "tags": ["digital twin", "technology", "industrial processes"],
-      "content": "Explore cutting-edge urban mobility solutions designed for smart cities. From intelligent transportation systems to sustainable commuting options, this post dives into how urban planning is evolving to meet the mobility needs of modern city dwellers.",
-      "id": 27,
-      "img": "industrial_engineering_img3.jpg"
-    },
-    {
-      "title": "Grid Integration of Renewable Energy in Power Systems",
-      "author": "Emma Harris",
-      "date": "2023-12-28",
-      "category": "Energy Engineering",
-      "tags": ["grid integration", "renewable energy", "power systems"],
-      "content": "Explore cutting-edge urban mobility solutions designed for smart cities. From intelligent transportation systems to sustainable commuting options, this post dives into how urban planning is evolving to meet the mobility needs of modern city dwellers.",
-      "id": 28,
-      "img": "energy_engineering_img3.jpg"
-    },
-    {
-      "title": "Innovations in Chemical Manufacturing Processes",
-      "author": "Ryan Miller",
-      "date": "2023-12-27",
-      "category": "Chemical Engineering",
-      "tags": ["innovations", "chemical manufacturing", "engineering"],
-      "content": "Explore cutting-edge urban mobility solutions designed for smart cities. From intelligent transportation systems to sustainable commuting options, this post dives into how urban planning is evolving to meet the mobility needs of modern city dwellers.",
-      "id": 29,
-      "img": "chemical_engineering_img3.jpg"
-    },
-    {
-        "title": "Innovations in Chemical Manufacturing Processes",
-        "author": "priya Miller",
-        "date": "2023-12-17",
-        "category": "Chemical Engineering",
-        "tags": ["innovations", "chemical manufacturing", "engineering"],
-        "content": "Explore cutting-edge urban mobility solutions designed for smart cities. From intelligent transportation systems to sustainable commuting options, this post dives into how urban planning is evolving to meet the mobility needs of modern city dwellers.",
-        "id": 30,
-        "img": "chemical_engineering_img3.jpg"
-      }
-  ]
-}
     
 
 };
