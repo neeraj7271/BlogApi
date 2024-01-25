@@ -1,4 +1,4 @@
-let data = [
+let data = {
 
     {
       "page": 1,
@@ -350,7 +350,7 @@ let data = [
 }
     
 
-];
+};
 
 //   console.log(data[0]);
   
