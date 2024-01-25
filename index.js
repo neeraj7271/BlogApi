@@ -19,15 +19,15 @@ app.get("/", (req, res) => {
 })
 
 app.get("/:page", (req, res) => {
-  let index = req.params.page;
-  // console.log(index);
+  let index = (req.params.page).toString();
+  console.log(index);
   
 
   if(index > data.length) {
     res.json({data: "data not found"});
   }
   
-  res.json({ data: data[`${index}`]});
+  res.json({ data: data[index]});
 });
 
 // Start the server
