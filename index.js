@@ -20,6 +20,8 @@ app.get("/", (req, res) => {
 
 app.get("/page=:page", (req, res) => {
   let index = req.params.page;
+  // console.log(index);
+  
 
   if(index > data.length) {
     res.json({data: "data not found"});
