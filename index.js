@@ -4,6 +4,7 @@ import cors from "cors"
 
 
 
+
 const app = express();
 
 app.use(cors())
@@ -28,7 +29,7 @@ app.get("/page=:page", (req, res) => {
     res.json({data: "data not found"});
   }
   
-  res.json({ data: data[`page${index}`]});
+  res.json({ data: data[index]});
 });
 
 // Start the server

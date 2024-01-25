@@ -1,6 +1,6 @@
 let data = 
 
-  {
+  [
     "page1": {
       "page": 1,
       "pageSize": 5,
@@ -351,7 +351,7 @@ let data =
     },
     
 
-};
+  ];
 
 //   console.log(data[0]);
 
