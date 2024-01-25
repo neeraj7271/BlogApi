@@ -1,6 +1,6 @@
 let data = {
 
-   page1: {
+   "page1": {
       "page": 1,
       "pageSize": 5,
       "totalPosts": 30,
@@ -58,7 +58,7 @@ let data = {
         }
       ]
     },
-    page2: {
+    "page2": {
       "page": 2,
       "pageSize": 5,
       "totalPosts": 30,
@@ -116,7 +116,7 @@ let data = {
         }
       ]
     },
-    page3: {
+    "page3": {
       "page": 3,
       "pageSize": 5,
       "totalPosts": 30,
@@ -174,7 +174,7 @@ let data = {
         }
       ]
     },
-    page4:{
+    "page4":{
       "page": 4,
       "pageSize": 5,
       "totalPosts": 30,
@@ -232,7 +232,7 @@ let data = {
         }
       ]
     },
-    page5:{
+    "page5":{
   "page": 5,
   "pageSize": 5,
   "totalPosts": 30,
@@ -290,7 +290,7 @@ let data = {
     }
   ]
 },
-page6:{
+"page6":{
   "page": 6,
   "pageSize": 5,
   "totalPosts": 30,
