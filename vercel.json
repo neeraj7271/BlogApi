@@ -9,7 +9,7 @@
     ],
     "routes":[
         {
-            "src":"/(.*)",
+            "src":"/(:page)",
             
             "headers": {
                 "Access-Control-Allow-Origin": "*",
