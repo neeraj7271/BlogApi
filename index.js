@@ -20,16 +20,17 @@ app.get("/", (req, res) => {
   res.json({data: data});
 })
 
-app.get("/page=:page", (req, res) => {
-  let index = req.params.page;
-  console.log(index);
+app.get("/page:page", (req, res) => {
+  const pageNumber = parseInt(req.params.page);
+  const pageKey =  `page${pageNumber}`;
   
 
-  if(index > data.length) {
-    res.json({data: "data not found"});
+  if(data[pageKey]) {
+
+    res.json({ data: data[pageKey]});
+  } else {
+    res.json({error: "Unable to fetch data"});
   }
-  
-  res.json({ data: data[index]});
 });
 
 // Start the server
