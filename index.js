@@ -18,7 +18,7 @@ app.get("/", (req, res) => {
   res.json({data: data});
 })
 
-app.get("/page=:page", (req, res) => {
+app.get("/:page", (req, res) => {
   let index = req.params.page;
   // console.log(index);
   
@@ -27,7 +27,7 @@ app.get("/page=:page", (req, res) => {
     res.json({data: "data not found"});
   }
   
-  res.json({ data: data[`page${index}`]});
+  res.json({ data: data[`${index}`]});
 });
 
 // Start the server
