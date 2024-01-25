@@ -8,6 +8,8 @@ const app = express();
 
 
 
+
+
 const port = process.env.PORT || 3000;
 
 // Define a sample endpoint
@@ -23,7 +25,7 @@ app.get("/page=:page", (req, res) => {
     res.json({data: "data not found"});
   }
   
-  res.json({ data: data[index]});
+  res.json({ data: data[`page${index}`]});
 });
 
 // Start the server
